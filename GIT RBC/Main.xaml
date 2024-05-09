@@ -54,16 +54,15 @@
         <OutArgument x:TypeArguments="x:Int32">[num]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">7</InArgument>
+        <InArgument x:TypeArguments="x:Int32">9</InArgument>
       </Assign.Value>
     </Assign>
-    <g:ExecuteWorkflow OutArguments="{x:Null}" WorkflowPath="mod-operationoddeven.xaml" sourceLocationSteppedCount="0">
+    <g:ExecuteWorkflow OutArguments="{x:Null}" sap2010:WorkflowViewState.IdRef="ExecuteWorkflow_1" WorkflowPath="mod-operationoddeven.xaml" sourceLocationSteppedCount="0">
       <g:ExecuteWorkflow.ChildArguments>
         <InArgument x:TypeArguments="x:Int32" x:Key="num">[num]</InArgument>
       </g:ExecuteWorkflow.ChildArguments>
-      <sap2010:WorkflowViewState.IdRef>ExecuteWorkflow_1</sap2010:WorkflowViewState.IdRef>
     </g:ExecuteWorkflow>
-    <sads:DebugSymbol.Symbol>d0RDOlxVc2Vyc1xLQTAwNzk2NjQxXERlc2t0b3BcQ2xpZW50IFdGXFJCQ1xkZW1vLWdpdC11cGdyYWRlXE1haW4ueGFtbAcwA0MOAgEBNAU7DgIBBjwFQRkCAQI5LzkwAgEJNjA2NQIBBzw9PFgCAQU+Oz5AAgED</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1xLQTAwNzk2NjQxXERlc2t0b3BcZ2l0IGZpbGVzIG1heTlcR0lUIFJCQ1xNYWluLnhhbWwHMANCDgIBATQFOw4CAQY8BUAZAgECOS85MAIBCTYwNjUCAQc8cTyMAQIBBT47PkACAQM=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -76,7 +75,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="CustomWorkflowDesigner.Activity1_1" sap:VirtualizedContainerService.HintSize="304,514" />
+      <sap2010:ViewStateData Id="CustomWorkflowDesigner.Activity1_1" sap:VirtualizedContainerService.HintSize="304,354" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
